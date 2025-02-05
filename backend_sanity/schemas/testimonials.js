@@ -20,13 +20,11 @@ export default {
             options: {
                 hotspot: true
             }
-        }
+        },
+        {
+            name: 'feedback',
+            title: 'Feedback',
+            type: 'string'
+        },
     ],
-
-    preview: {
-        select: {
-            title: 'name',
-            subtitle: 'company'
-        }
-    }
 }
